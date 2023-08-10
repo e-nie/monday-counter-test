@@ -13,7 +13,7 @@
   flex-direction: column;
   border: 3px solid #61dafb;
   border-radius: 20px;
-  height: 60vmin;
+  height: 50vmin;
 }
 
 .counter {
@@ -27,6 +27,38 @@
   margin: 25px;
   border-radius: 20px;
   height: 30vmin;
+}
+
+.valueBlock {
+  margin: 25px;
+  border-radius: 20px;
+  height: 30vmin;
+  border: 3px solid #61dafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color:#61dafb;
+  font-weight:bold;
+}
+
+label{
+  margin-right: 120px;
+}
+
+input {
+  padding: 3px;
+  border: 3px solid #61dafb;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.red {
+  color: red;
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
 }
 
 .button-container {
@@ -66,9 +98,9 @@ button {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
